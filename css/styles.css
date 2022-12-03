@@ -1,0 +1,242 @@
+body {
+    font-family: poppins;
+}
+
+.intro {
+    height: 42rem;
+    background: rgb(28, 28, 28);
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+#name {
+    margin-right: 55rem;
+}
+
+.nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.nav a:hover {
+    color: rgb(168, 130, 225);
+}
+
+.hello {
+    color: rgb(255, 255, 255);
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+#author {
+    margin-left: 24rem;
+    border: 9px solid rgb(168, 130, 225);
+    box-shadow: 20px 20px white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 45rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+#welcome {
+    margin-left: 7rem;
+    padding-right: none;
+    margin-top: 5rem;
+}
+
+.background {
+    margin-left: 7rem;
+    padding-right: none;
+    margin-top: 1.5rem;
+    margin-right: 9rem;
+    font-size: 1.2rem;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0rem;
+    margin-top: 10rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.view {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(28, 28, 28);
+    margin-top: 7rem;
+    margin-bottom: 20rem;
+    padding-top: .1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: .1rem;
+    margin-left: 15rem;  
+    margin-right: 14rem;    
+    border-radius: 30rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.project1 {
+    margin-right: 1rem;
+}
+
+.work {
+    text-decoration: none;
+}
+
+/*credit for learning overlay positioning https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 62%;
+    width: 96.5%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #1010109e;
+  }
+ 
+.container1 {
+position: relative;
+}
+
+.container1:hover .overlay {
+opacity: 1;
+}
+
+.container3 {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+    
+.container3:hover .overlay {
+opacity: 1;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    left: 10%;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 10%;
+}
+
+
+
+
+.bottom {
+    height: 5rem;
+    background: rgb(28, 28, 28);
+    margin-top: 0rem;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+#contact {
+    margin-right: 54rem;
+}
+
+.footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: 10rem;
+}
+
+/*interior page*/
+
+#casestudy {
+    height: 4rem;
+    background: rgb(28, 28, 28);
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background: rgb(28, 28, 28);
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#overview {
+    color: black;
+    font-weight: 300;
+}
+
+#header {
+    color: black;
+}
+
+.interior {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.summary {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 0rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+
